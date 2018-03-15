@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			div{
+				width: 300px;
+				height: 200px;
+				border: 1px solid red;
+				display: none;
+			}
+			.active{
+				background: red;
+			}
+		</style>
+	</head>
+	<body>
+		<button class="active">html</button>
+		<button>css</button>
+		<button>javascript</button>
+		<div style="display: block;">htmlhtmlhtmlhtmlhtmlhtmlhtmlhtml</div>
+		<div>csscsscsscsscsscsscsscsscsscsscss</div>
+		<div>javascriptjavascriptjavascript</div>
+		
+		
+		
+		<!--引入本地的Jquery的文件-->
+		<!--<script src="jquery-3.3.1.js" type="text/javascript"></script>-->
+		<!--其他cdn(内容分发网络)-->
+		<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js" ></script>
+		<script type="text/javascript">
+			/*var btns=document.getElementsByTagName('button');
+			var divs=document.getElementsByTagName('div');
+			for(var i=0;i<btns.length;i++){
+				btns[i].index=i;
+				btns[i].onclick=function(){
+					for(var i=0;i<btns.length;i++){
+						btns[i].className='';
+						divs[i].style.display='none';
+					}
+					this.className='active';
+					divs[this.index].style.display='block';
+				}
+			}*/
+			
+			/*$('button').click(function(){
+				$(this).addClass('active').siblings('button').removeClass('active');
+				$('div').eq($(this).index()).show().siblings('div').hide();
+			});*/
+			
+			
+			
+			
+		</script>
+	</body>
+</html>
 
